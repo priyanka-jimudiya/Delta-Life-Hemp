@@ -1,0 +1,656 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('../Fonts/Inter-Regular.woff2') format('woff2'),
+        url('../Fonts/Inter-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sora';
+    src: url('../Fonts/Sora-Regular.woff2') format('woff2'),
+        url('../Fonts/Sora-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('Manrope-Regular.woff2') format('woff2'),
+        url('Manrope-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+.header {
+    height: 194px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.logo {
+    width: 150px;
+    height: 89px;
+    padding: 20px 0;
+    margin-left: 580px;
+}
+
+.navbar {
+    height: 45px;
+}
+
+.nav-item {
+    width: 1188px;
+    height: 39px;
+    margin: 10px 80px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item li {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.15px;
+    text-align: left;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.nav-item button {
+    width: 146px;
+    height: 39px;
+    padding: 5px 20px;
+    background-color: #8CC63F;
+    color: white;
+    cursor: pointer;
+    border: 0;
+    font-size: 15px;
+}
+
+.shop {
+    height: 633px;
+    background-color: #8CC63F;
+    display: flex;
+    text-align: left;
+}
+
+.shop-item {
+    width: 566px;
+    height: 371px;
+    margin-left: 150px;
+}
+
+.shop-item h1 {
+    font-family: Sora;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 65px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.shop-item p {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.shop-item button {
+    width: 181px;
+    height: 61px;
+    font-family: Sora;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25.2px;
+    text-align: center;
+    color: #172048;
+}
+
+.product {
+    display: flex;
+    justify-content: center;
+}
+
+.product-img1 {
+    width: 270px;
+    height: 530px;
+    margin-top: 180px;
+    transform: translateX(280px);
+}
+
+.product-img2 {
+    width: 280px;
+    height: 550px;
+    margin-top: 20px;
+    transform: translateX(135px);
+}
+
+.product-img3 {
+    width: 225px;
+    height: 530px;
+    padding-top: 175px;
+}
+
+.items {
+    height: 500px;
+    padding: 150px 120px 200px;
+    background-color: #FAFAFA;
+    text-align: left;
+}
+
+.items h1 {
+    font-family: Sora;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 45.36px;
+    text-align: left;
+    color: #172048;
+    display: inline;
+    padding-left: 50px;
+}
+
+
+.items button {
+    font-family: Sora;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.68px;
+    text-align: center;
+    padding: 18px 37px 18px 37px;
+    float: right;
+    background-color: #8CC63F;
+    border: 0;
+    color: #fff;
+}
+
+.items-nav {
+    width: 717px;
+    height: 37px;
+    margin: 50px 0;
+}
+
+.items-nav li {
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.59px;
+    text-align: center;
+    display: inline;
+    margin: 15px;
+}
+
+
+.items-column {
+    float: left;
+    width: 33.33%;
+}
+
+.card {
+    height: 450px;
+    background-color: #FFFFFF;
+    text-align: center;
+    margin: 0 20px 45px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.card-img {
+    width: 100%;
+    height: 250px;
+    margin-top: 10px;
+}
+
+.card-box {
+    width: 303px;
+    margin: 0px 20px;
+    height: 139px;
+    padding: 10px 0;
+}
+
+.card-box h6 {
+    font-family: Sora;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20.16px;
+    text-align: center;
+    margin: 0;
+    color: #8CC63F;
+}
+
+.card-box p {
+    font-family: Sora;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27.72px;
+    text-align: center;
+    color: #172048;
+}
+
+.price {
+    width: 165px;
+    height: 33px;
+    padding: 0 60px;
+}
+
+.selling-price {
+    font-family: Sora;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 10px;
+    letter-spacing: 0.08124999701976776px;
+    color: #172048;
+    float: left;
+}
+
+.mrp {
+    font-family: Sora;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+    float: right;
+    color: #6B6867;
+    text-decoration: line-through;
+}
+
+.leaders {
+    width: 100%;
+    height: 700px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.leaders-row {
+    padding: 145px 190px 0;
+
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.leaders-column1 {
+    float: 1;
+}
+
+.leaders-column2 {
+    float: 1;
+}
+
+.leaders-column2 h1 {
+    font-family: Sora;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 65.5px;
+    text-align: left;
+    color: #172048;
+    padding: 0 40px;
+}
+
+.leaders-column2 p {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34.5px;
+    text-align: left;
+    color: #7D8296;
+    padding: 0 40px;
+}
+
+.stock {
+    height: 1900px;
+    background-color: #FAFAFA;
+    padding: 20px;
+    text-align: center;
+}
+
+.stock h1 {
+    font-family: Sora;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 45.36px;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.stock-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.stock-column {
+    float: 1;
+}
+
+.search {
+    height: 591px;
+    background-image: url("../Images/hills.png");
+}
+
+.browse {
+    margin: 0 332px;
+    padding-top: 135px;
+}
+
+.browse h1 {
+    font-family: Sora;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 45.36px;
+    text-align: center;
+    color: #172048;
+    padding: 0 55px;
+}
+
+.browse-box {
+    width: 650px;
+    height: 50px;
+    background: #FFFFFF;
+    display: flex;
+    margin: 50px 10px;
+}
+
+.browse-box p {
+    font-family: Sora;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20.16px;
+    text-align: left;
+    color: #6B6867;
+    padding-left: 10px;
+}
+
+.browse-box button {
+    width: 135px;
+    height: 40px;
+    background-color: #8CC63F;
+    border: 0;
+    font-family: Sora;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.68px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 5px 10px 5px 335px;
+}
+
+.btn-group {
+    width: 777px;
+    height: 50px;
+    margin-left: 305px;
+}
+
+.btn-group button {
+    width: 90px;
+    height: 50px;
+    padding: 15px 10px;
+    border: 1 solid #FFFFFF;
+    margin: 5px;
+    font-family: Sora;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+
+.mix-fruit {
+    height: 600px;
+    background: #FFFFFF;
+    padding: 20px;
+    text-align: left;
+}
+
+.mix-fruit-row {
+    padding: 80px 0;
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+
+.mix-fruit-column1 {
+    float: left;
+
+}
+
+.mix-fruit-column2 {
+    float: right;
+    width: 507px;
+
+}
+
+.mix-fruit-column2 h1 {
+    font-family: Sora;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 45.36px;
+    text-align: left;
+    color: #172048;
+    padding: 0 20px;
+}
+
+.mix-fruit-column2 p {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34.5px;
+    text-align: left;
+    color: #7D8296;
+    padding: 0 20px;
+}
+
+.mix-fruit-column2 button {
+    width: 160px;
+    height: 59px;
+    padding: 18px 37px 18px 37px;
+    background-color: #8CC63F;
+    border: 0;
+    font-family: Sora;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.68px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 20px;
+}
+
+.videos {
+    height: 610px;
+    background-color: #FAFAFA;
+    padding: 20px;
+    text-align: center;
+}
+
+.reviews {
+    height: 558px;
+}
+
+h1 {
+    font-family: Sora;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 45.36px;
+    text-align: center;
+    color: #172048;
+    padding-top: 130px;
+}
+
+.row {
+    width: 1140px;
+    height: 254px;
+    margin: 50px 100px 130px;
+}
+
+.column {
+    height: 254px;
+    float: left;
+    margin: 0 10px;
+    background-color: #FAFAFA;
+}
+
+.reviews {
+    height: 558px;
+}
+
+.reviews-row {
+    width: 1239px;
+    height: 233px;
+    display: flex;
+    padding: 0 50px;
+}
+
+.reviews-col {
+    width: 33.33%;
+    height: 233px;
+    margin: 0 24px;
+    background-color: #FAFAFA;
+}
+
+.content {
+    width: 313px;
+    height: 163px;
+    margin: 35px;
+}
+
+.content p {
+    font-family: Sora;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: #1B1D21;
+}
+
+.content-row {
+    width: 313px;
+    height: 43px;
+    margin-top: 20px;
+}
+
+.content-column1 {
+    width: 42px;
+    height: 42px;
+    float: left;
+}
+
+.content-column2 {
+    width: 129px;
+    height: 43px;
+    margin-left: 5px;
+    float: left;
+    font-family: Sora;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20.16px;
+    text-align: left;
+    color: #8D8E90;
+}
+
+.content-column3 {
+    width: 32px;
+    height: 32px;
+    float: right;
+}
+
+
+.footer {
+    height: 407px;
+    background: #171717;
+    display: flex;
+}
+
+.about {
+    width: 255px;
+    height: 149px;
+    margin: 0 0 165px 145px;
+    padding-top: 94px;
+}
+
+.about img {
+    width: 112px;
+    height: 51px;
+}
+
+.about p {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #8D8E90;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer h1 {
+    font-family: Sora;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22.68px;
+    text-align: left;
+    color: #FFFFFF;
+    padding: 82px 57px 24px;
+}
+
+.footer li {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #FFFFFF;
+    list-style: none;
+    padding: 0 40px 15px 55px;
+}
+
+.footer input {
+    width: 50%;
+    height: 40px;
+    background-color: #B3BAC5;
+    border: 0;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+    color: #8D8E90;
+    padding: 5px;
+
+}
+
+.footer button {
+    width: 50%;
+    height: 40px;
+    background-color: #FFFFFF;
+    border: 0;
+    margin-top: 10px;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.86px;
+    text-align: center;
+    color: #171717;
+    padding: 5px;
+
+}
